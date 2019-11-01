@@ -1,0 +1,19 @@
+{
+    "name": "cipriano/dbmaker",
+    "description": "Aplicação com boas práticas",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Fernanda Cipriano",
+            "email": "cipriano632@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Cipriano\\": "vendor\\cipriano\\src",
+            "App\\": "src/"
+        },
+        "files": ["bootstrap/index.php"]
+    }
+}
